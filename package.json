@@ -1,0 +1,27 @@
+{
+  "name": "pos-system-backend",
+  "version": "1.0.0",
+  "description": "Backend for Point of Sale system using Express and Firestore",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase-admin": "^9.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "ts-node": "^9.1.1",
+    "jest": "^26.6.3",
+    "@types/jest": "^26.0.0",
+    "@types/express": "^4.17.8"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
